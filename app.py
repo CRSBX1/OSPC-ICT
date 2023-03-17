@@ -20,10 +20,6 @@ def noti_confirmation():
     y=0
     print("parameter jarak dan waktu sudah di-reset")
     
- 
-
-
-
 
 while True:
 
