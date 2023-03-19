@@ -16,7 +16,9 @@ def noti_confirmation():
         pesan = str(input("Apakah anda sudah mengganti oli?\n1. Sudah\n2. Belum\n"))
     if pesan == "sudah":
         print("Terima kasih telah menggunakan aplikasi")
-        print("parameter jarak dan waktu sudah di-reset")
+        jarak=0
+        waktu=0
+        print("parameter jarak dan waktu sudah di-reset=",jarak,",",waktu)
     else:
         print("Input anda invalid")
     
