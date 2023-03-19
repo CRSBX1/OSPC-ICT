@@ -17,7 +17,7 @@ async def noti_confirmation():
 
     while pesan == "belum":
         print("Jangan lupa untuk mengganti oli")
-        time.sleep(86400)
+        time.sleep(3600)#3600=1 hari
         pesan = str(input("Apakah anda sudah mengganti oli?\n1. Sudah\n2. Belum\n"))
 
         if pesan == "sudah":
